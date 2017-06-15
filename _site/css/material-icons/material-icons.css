@@ -1,0 +1,73 @@
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/material-icons/MaterialIcons-Regular.eot);
+  /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(../fonts/material-icons/MaterialIcons-Regular.woff2) format("woff2"), url(../fonts/material-icons/MaterialIcons-Regular.woff) format("woff"), url(../fonts/material-icons/MaterialIcons-Regular.ttf) format("truetype");
+}
+
+/* line 4, D:/JONAR/Playground/08/BASE/_sass/material-icons/_core.scss */
+.md {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
+
+/* makes the font 33% larger relative to the icon container */
+/* line 5, D:/JONAR/Playground/08/BASE/_sass/material-icons/_sizing.scss */
+.md-18 {
+  font-size: 18px;
+}
+
+/* line 6, D:/JONAR/Playground/08/BASE/_sass/material-icons/_sizing.scss */
+.md-24 {
+  font-size: 24px;
+}
+
+/* line 7, D:/JONAR/Playground/08/BASE/_sass/material-icons/_sizing.scss */
+.md-36 {
+  font-size: 36px;
+}
+
+/* line 8, D:/JONAR/Playground/08/BASE/_sass/material-icons/_sizing.scss */
+.md-48 {
+  font-size: 48px;
+}
+
+/* line 4, D:/JONAR/Playground/08/BASE/_sass/material-icons/_coloring.scss */
+.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+/* line 7, D:/JONAR/Playground/08/BASE/_sass/material-icons/_coloring.scss */
+.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+/* line 13, D:/JONAR/Playground/08/BASE/_sass/material-icons/_coloring.scss */
+.md-light {
+  color: white;
+}
+
+/* line 16, D:/JONAR/Playground/08/BASE/_sass/material-icons/_coloring.scss */
+.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/*# sourceMappingURL=../../css/material-icons/material-icons.map */

@@ -1,0 +1,398 @@
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.heading {
+  padding: 40px 0 25px;
+}
+
+.alert, .alert-horizontal {
+  margin: 10px 0;
+}
+
+#footer > .container {
+  /* Align with the navbar container */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-content {
+  margin: 15px 0;
+  color: #999;
+}
+
+/* Bootstrap's example styles
+-------------------------------------------------- */
+/*.bse-buttons > .btn,
+.bse-buttons > .btn-group {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}*/
+
+.bs-thumbnails > div {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 80px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  background-color: #f8f8f8;
+}
+
+/* Sidebar styles
+-------------------------------------------------- */
+.sidebar {
+  padding-left: 20px;
+}
+
+.sidebar .nav > .active > ul {
+  display: block;
+}
+
+.sidebar .nav > li > a {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #999;
+  padding: 4px 20px;
+}
+.sidebar .nav > li > a:hover,
+.sidebar .nav > li > a:focus {
+  padding-left: 19px;
+  color: #333;
+  text-decoration: none;
+  background-color: transparent;
+  border-left: 1px solid #333;
+}
+.sidebar .nav > .active > a,
+.sidebar .nav > .active:hover > a,
+.sidebar .nav > .active:focus > a {
+  padding-left: 18px;
+  font-weight: 700;
+  color: #333;
+  background-color: transparent;
+  border-left: 2px solid #333;
+}
+
+.sidebar .nav .nav {
+  display: none;
+  padding-bottom: 10px;
+}
+
+.sidebar .nav .nav > li > a {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 30px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.sidebar .nav .nav > li > a:hover,
+.sidebar .nav .nav > li > a:focus {
+  padding-left: 29px;
+}
+.sidebar .nav .nav > .active > a,
+.sidebar .nav .nav > .active:hover > a,
+.sidebar .nav .nav > .active:focus > a {
+  font-weight: 500;
+  padding-left: 28px;
+}
+
+.back-to-top {
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #999;
+}
+.back-to-top:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Banner
+-------------------------------------------------- */
+.banner {
+  width: 200px;
+  margin-top: 20px;
+}
+.banner a {
+  font-size: 85%;
+  color: #999;
+}
+.banner a:hover,
+.banner a:active {
+  color: #333;
+  text-decoration: none;
+}
+.banner-thumbnail {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  background-image: url(http://anvoz.github.io/world-js/images/thumb.png);
+  background-position: -160px -60px;
+}
+
+/* HTML inspector button styles
+-------------------------------------------------- */
+.js-html-inspector {
+  position: relative;
+}
+.js-html-inspector .js-btn-inspector {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #000;
+  background-color: #fff;
+}
+.js-html-inspector:hover .js-btn-inspector {
+  display: block;
+}
+#dialog-html-inspector code {
+  word-break: normal;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+
+.row{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+
+/* Side Bar Toggle
+-------------------------------------------------- */
+.row{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+#wrapper {
+    padding-left: 70px;
+    transition: all .4s ease 0s;
+    height: 100%
+}
+
+#sidebar-wrapper {
+    margin-left: -300px;
+    left: 70px;
+    width: 300px;
+    background: #222;
+    position: fixed;
+    height: 100%;
+    z-index: 10000;
+    transition: all .4s ease 0s;
+}
+
+.sidebar-nav {
+    display: block;
+    float: left;
+    width: 300px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#page-content-wrapper {
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+}
+#wrapper.active {
+    padding-left: 300px;
+}
+#wrapper.active #sidebar-wrapper {
+    left: 300px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+}
+
+#sidebar_menu li a, .sidebar-nav li a {
+    color: #999;
+    display: block;
+    float: left;
+    text-decoration: none;
+    width: 300px;
+    background: #252525;
+    border-top: 1px solid #373737;
+    border-bottom: 1px solid #1A1A1A;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -o-transition: background .5s;
+    -ms-transition: background .5s;
+    transition: background .5s;
+}
+.sidebar_name {
+    padding-top: 25px;
+    color: #fff;
+    opacity: .7;
+}
+
+.sidebar-nav li {
+  line-height: 40px;
+  text-indent: 20px;
+}
+
+.sidebar-nav li a {
+  color: #999999;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+.container {
+  width: inherit;
+}
+.dropdown-menu {
+  min-width: 270px;
+}
+#main_icon
+{
+  float:right;
+   padding-right: 30px;
+   padding-top:20px;
+}
+.sub_icon
+{
+    float:right;
+   padding-right: 30px;
+   padding-top:10px;
+}
+.content-header {
+  height: 65px;
+  line-height: 65px;
+}
+
+.content-header h1 {
+  margin: 0;
+  margin-left: 20px;
+  line-height: 65px;
+  display: inline-block;
+}
+
+@media (max-width:767px) {
+    #wrapper {
+    padding-left: 70px;
+    transition: all .4s ease 0s;
+}
+#sidebar-wrapper {
+    left: 70px;
+}
+#wrapper.active {
+    padding-left: 150px;
+}
+#wrapper.active #sidebar-wrapper {
+    left: 150px;
+    width: 150px;
+    transition: all .4s ease 0s;
+}
+}
+
+
+/********** User Profile **********/
+
+#user-profile
+{
+    float: right;
+
+    margin: 10px 0;
+}
+
+#user-profile > a
+{
+    display: table;
+
+    padding: 5px 15px;
+
+    color: #555;
+    border-radius: 5px;
+}
+
+#user-profile.open > a,
+#user-profile > a:hover,
+#user-profile > a:focus
+{
+    background-color: #f0f0f0;
+}
+
+.user-avatar
+{
+    float: left;
+
+    margin-right: 10px;
+}
+
+.user-avatar img
+{
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+}
+
+.user-details
+{
+    line-height: 1.25em;
+
+    float: left;
+
+    padding: 2.5px 0;
+}
+
+.user-name
+{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.user-company
+{
+    font-size: 12px;
+    line-height: 15px;
+}
+

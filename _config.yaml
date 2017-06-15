@@ -1,0 +1,26 @@
+###########
+# site.url, site.title
+
+title: 'Welcome to pb-console'
+
+## note: 
+#  use site.path in your templates to make it work for both protocols e.g. http and https
+#  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
+path: /pb-console
+url:  '/pb-console'
+
+
+########
+# more settings
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style: expanded 
+
+pb-consoleurl: /pb-console
+exclude: ['README.md']
+
+port: 4000
+encoding: utf-8
