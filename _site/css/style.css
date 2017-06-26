@@ -715,3 +715,7 @@ i {
 .section-body {
   margin-bottom: 0px;
 }
+
+.btn i {
+  padding-right: 0px;
+}
