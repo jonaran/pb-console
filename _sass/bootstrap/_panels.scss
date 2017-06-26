@@ -9,7 +9,7 @@
   background-color: $panel-bg;
   border: solid transparent;
   border-width: 3px 0 0;
-  @include box-shadow(0 1px 1px rgba(0,0,0,.25));
+  @include box-shadow(0 3px 6px rgba(0,0,0,.16));
 }
 
 // Panel contents
@@ -51,7 +51,6 @@
   margin-top: 0;
   margin-bottom: 0;
   font-size: $font-size-17;
-  font-family: $headings-font-family;
   line-height: 25px;
   letter-spacing: $letter-spacing-h7;
   color: inherit;
@@ -168,7 +167,7 @@
     }
 
     thead {
-      @include gradient-vertical($default-light, $default-base, 0%, 100%);
+      //@include gradient-vertical($default-light, $default-base, 0%, 100%);
       > tr > th,
       > tr > td {
         padding: 10px 7.5px;

@@ -25,7 +25,7 @@ $trend-grey-800:          #4D4D4F !default;
 $trend-grey-900:          #222222 !default;
 
 $trend-red:               #D71C2B !default;
-$trend-red-100:           #D01717 !default;
+$trend-red-100:           #e53935 !default;
 $trend-red-300:           #D52E2E !default;
 $trend-red-500:           #D71C2B !default;
 
@@ -212,7 +212,7 @@ $default-active-bg:         $default-bg !default;
 $trend-disabled-color:      $trend-grey-300 !default;
 
 $trend-hover-color:         #FFFFFF !default;
-$trend-hover-bg:            $trend-red-500 !default;
+$trend-hover-bg:            $trend-red-100 !default;
 
 $trend-active-color:        #FFFFFF !default;
 $trend-active-bg:           $trend-red-500 !default;
@@ -237,9 +237,9 @@ $caret-width-large:         5px !default;
 // TABLES
 // --------------------------------------------------
 
-$table-cell-padding:            10px 7.5px !default;
-$table-bordered-cell-padding:   10px 15px !default;
-$table-condensed-cell-padding:  5px 7.5px !default;
+$table-cell-padding:            15px 0px !default;
+$table-bordered-cell-padding:   15px 0px !default;
+$table-condensed-cell-padding:  10px 0px !default;
 
 $table-header-color:            $gray-700 !default;
 
@@ -339,39 +339,39 @@ $btn-primary-color-hover:       #FFFFFF !default;
 $btn-primary-text-shadow-default:  0 -1px rgba(0,0,0,.3) !default;
 $btn-primary-text-shadow-hover:    0 -1px rgba(0,0,0,.3) !default;
 $btn-primary-box-shadow:        inset 0 1px 0 0 rgba(255,255,255,.2) !default;
-$btn-primary-bg-start:          #D71C2B !default;
-$btn-primary-bg-end:            #D71C2B !default;
-$btn-primary-bg-hover-start:    #D71C2B !default;
-$btn-primary-bg-hover-end:      #D71C2B !default;
-$btn-primary-bg-active:         #D71C2B !default;
-$btn-primary-border-default:    #D71C2B !default;
-$btn-primary-border-hover:      #D71C2B !default;
+$btn-primary-bg-start:          #f44336 !default;
+$btn-primary-bg-end:            #f44336 !default;
+$btn-primary-bg-hover-start:    #f44336 !default;
+$btn-primary-bg-hover-end:      #f44336 !default;
+$btn-primary-bg-active:         #f44336 !default;
+$btn-primary-border-default:    #f44336 !default;
+$btn-primary-border-hover:      #f44336 !default;
 
 $btn-success-color:             #FFFFFF !default;
 $btn-success-color-hover:       #FFFFFF !default;
 $btn-success-text-shadow-default:  0 -1px rgba(0,0,0,.3) !default;
 $btn-success-text-shadow-hover:    0 -1px rgba(0,0,0,.3) !default;
 $btn-success-box-shadow:        inset 0 1px 0 0 rgba(255,255,255,.2) !default;
-$btn-success-bg-start:          #00AC94 !default;
-$btn-success-bg-end:            #00927E !default;
-$btn-success-bg-hover-start:    #00C5AA !default;
-$btn-success-bg-hover-end:      #00927E !default;
-$btn-success-bg-active:         #00927E !default;
-$btn-success-border-default:    #00463C !default;
-$btn-success-border-hover:      #00463C !default;
+$btn-success-bg-start:          #4caf50 !default;
+$btn-success-bg-end:            #4caf50 !default;
+$btn-success-bg-hover-start:    #4caf50 !default;
+$btn-success-bg-hover-end:      #4caf50 !default;
+$btn-success-bg-active:         #4caf50 !default;
+$btn-success-border-default:    #4caf50 !default;
+$btn-success-border-hover:      #4caf50 !default;
 
 $btn-info-color:                #FFFFFF !default;
 $btn-info-color-hover:          #FFFFFF !default;
 $btn-info-text-shadow-default:  0 -1px rgba(0,0,0,.3) !default;
 $btn-info-text-shadow-hover:    0 -1px rgba(0,0,0,.3) !default;
 $btn-info-box-shadow:           inset 0 1px 0 0 rgba(255,255,255,.2) !default;
-$btn-info-bg-start:             #1B9BDC !default;
-$btn-info-bg-end:               #188BC5 !default;
-$btn-info-bg-hover-start:       #2BA7E5 !default;
-$btn-info-bg-hover-end:         #188BC5 !default;
-$btn-info-bg-active:            #188BC5 !default;
-$btn-info-border-default:       #105B81 !default;
-$btn-info-border-hover:         #105B81 !default;
+$btn-info-bg-start:             #03a9f4 !default;
+$btn-info-bg-end:               #03a9f4 !default;
+$btn-info-bg-hover-start:       #03a9f4 !default;
+$btn-info-bg-hover-end:         #03a9f4 !default;
+$btn-info-bg-active:            #03a9f4 !default;
+$btn-info-border-default:       #03a9f4 !default;
+$btn-info-border-hover:         #03a9f4 !default;
 
 $btn-primary-outline-color:                #D71C2B !default;
 $btn-primary-outline-color-hover:          #FFF !default;
@@ -399,13 +399,13 @@ $btn-warning-color-hover:         #FFFFFF !default;
 $btn-warning-text-shadow-default: 0 1px rgba(255,255,255,.8) !default;
 $btn-warning-text-shadow-hover:   0 -1px rgba(0,0,0,.3) !default;
 $btn-warning-box-shadow:          inset 0 1px 0 0 rgba(255,255,255,.7) !default;
-$btn-warning-bg-start:            #F57B20 !default;
-$btn-warning-bg-end:              #F57B20 !default;
-$btn-warning-bg-hover-start:      #F57B20 !default;
-$btn-warning-bg-hover-end:        #F57B20 !default;
-$btn-warning-bg-active:           #F57B20 !default;
-$btn-warning-border-default:      #F57B20 !default;
-$btn-warning-border-hover:        #F57B20 !default;
+$btn-warning-bg-start:            #ef6c00 !default;
+$btn-warning-bg-end:              #ef6c00 !default;
+$btn-warning-bg-hover-start:      #ef6c00 !default;
+$btn-warning-bg-hover-end:        #ef6c00 !default;
+$btn-warning-bg-active:           #ef6c00 !default;
+$btn-warning-border-default:      #ef6c00 !default;
+$btn-warning-border-hover:        #ef6c00 !default;
 
 $btn-danger-color:               #666666 !default;
 $btn-danger-color-hover:         #FFFFFF !default;

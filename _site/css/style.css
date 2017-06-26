@@ -1,8 +1,11 @@
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+}
 .heading {
   padding: 40px 0 25px;
 }
@@ -20,6 +23,13 @@ body {
 .footer-content {
   margin: 15px 0;
   color: #999;
+}
+
+.btn-controls-primary {
+  font-size: 14px;
+}
+.btn-controls-secondary {
+    padding: 5px 10px;
 }
 
 /* Bootstrap's example styles
@@ -52,6 +62,11 @@ body {
   /* Set the fixed height of the footer here */
   height: 80px;
   background-color: #f8f8f8;
+}
+
+.header {
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+    border: 1px solid rgba(61,70,77,0.1);
 }
 
 /* Sidebar styles
@@ -196,11 +211,12 @@ body {
     margin-left: -300px;
     left: 70px;
     width: 300px;
-    background: #222;
+    background: #1F2D3D;
     position: fixed;
     height: 100%;
     z-index: 10000;
     transition: all .4s ease 0s;
+    overflow-y: auto;
 }
 
 .sidebar-nav {
@@ -229,14 +245,12 @@ body {
 }
 
 #sidebar_menu li a, .sidebar-nav li a {
-    color: #999;
+    color: #FFFFFF;
     display: block;
     float: left;
     text-decoration: none;
     width: 300px;
-    background: #252525;
-    border-top: 1px solid #373737;
-    border-bottom: 1px solid #1A1A1A;
+    background: transparent;
     -webkit-transition: background .5s;
     -moz-transition: background .5s;
     -o-transition: background .5s;
@@ -255,13 +269,15 @@ body {
 }
 
 .sidebar-nav li a {
-  color: #999999;
+  color: #FFF;
   display: block;
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 .sidebar-nav li a:hover {
-  color: #fff;
+  color: rgba(255,255,255,0.8);
   background: rgba(255,255,255,0.2);
   text-decoration: none;
 }
@@ -396,3 +412,302 @@ body {
     line-height: 15px;
 }
 
+/********** Search Box **********/
+
+
+.input-group .icon-addon .form-control {
+    border-radius: 0;
+}
+
+.icon-addon {
+    position: relative;
+    color: #555;
+    display: block;
+}
+
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+
+.icon-addon:after {
+    clear: both;
+}
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon, 
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+
+.icon-addon.addon-lg .form-control {
+    line-height: 1.33;
+    height: 40px;
+    font-size: 16px;
+    padding: 10px 16px 10px 40px;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.icon-addon.addon-sm .form-control {
+    height: 30px;
+    padding: 5px 10px 5px 28px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 50px;
+}
+
+.icon-addon.addon-lg .fa,
+.icon-addon.addon-lg .glyphicon {
+    font-size: 18px;
+    margin-left: 0;
+    left: 11px;
+    top: 0px;
+}
+
+.icon-addon.addon-md .form-control,
+.icon-addon .form-control {
+    padding-left: 30px;
+    float: left;
+    font-weight: normal;
+    border-radius: 50px;
+}
+
+.icon-addon.addon-sm .fa,
+.icon-addon.addon-sm .glyphicon {
+    margin-left: 0;
+    font-size: 12px;
+    left: 5px;
+    top: -1px
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+    color: #2580db;
+}
+
+
+
+/*------------------*/
+.chart {
+  display: inline-block;
+  width: 120px;
+  margin: 10px 20px;
+}
+
+.easyPieChart {
+  position: relative;
+  text-align: center;
+}
+.easyPieChart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.percentage,
+.label {
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-weight: 100;
+}
+
+.percentage {
+  font-size: 31px;
+}
+
+sup {
+  top: -11px;
+  margin-left: 1px;
+  font-size: 14px;
+  position: relative;
+}
+
+.ctrl {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  color: #c4cdcc;
+  word-spacing: 5px;
+}
+.ctrl span {
+  cursor: pointer;
+  -moz-transition: color 0.5s ease-in-out;
+  -o-transition: color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+.ctrl span:hover {
+  color: #000;
+}
+
+.meta {
+  margin: auto;
+  max-width: 280px;
+  border-top: 1px solid rgba(155, 155, 155, 0.2);
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  color: #c9cccb;
+}
+p a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+p + p {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+
+
+
+/********** Storage Status **********/
+
+#status-storage {
+  padding: 0px 20px;
+  border-bottom: 0px;
+  /*background-color: #192533;*/
+}
+
+#status-storage .section-title,
+#status-storage .section-title h3,
+#status-storage .section-body,
+#status-storage .section-footer  {
+  color: #fff;
+  padding: 5px 0px;
+}
+
+#status-storage .section-title {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#status-storage .caption {
+    color: #FFF;
+    font-size: small;
+}
+
+
+#status-storage {
+  margin: 0px;
+}
+
+/********** Side Navigation Accordion **********/
+
+
+#accordion .panel, #accordion .panel-heading {
+  background: #293d52;
+  color: #fff;
+  border: 0px;
+  margin: 1px;
+}
+
+#accordion .panel-title {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#accordion .panel-heading + .panel-collapse > .panel-body, 
+#accordion .panel-heading + .panel-collapse > .list-group {
+  border: 0px;
+}
+#accordion  .table > thead > tr > th,
+ #accordion .table > thead > tr > td,
+  #accordion .table > tbody > tr > th,
+   #accordion .table > tbody > tr > td,
+    #accordion .table > tfoot > tr > th,
+     #accordion .table > tfoot > tr > td {
+      border: 0px;
+      padding: 0px;
+      color: #fff;
+     }
+#accordion  .table > thead > tr > th a,
+ #accordion .table > thead > tr > td a,
+  #accordion .table > tbody > tr > th a,
+   #accordion .table > tbody > tr > td a,
+    #accordion .table > tfoot > tr > th a,
+     #accordion .table > tfoot > tr > td a{
+      color: #fff;
+      padding-left: 20px;
+     }
+
+#accordion .table {
+  background-color: transparent;
+}
+
+#accordion .panel-body {
+  padding: 0px;
+}
+
+.more-less, .icon-padding  {
+  padding-right: 10px;
+}
+
+i {
+  opacity: 0.6;
+  padding-right: 10px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #FFF;
+  border-bottom: 5px solid #d71c2b;
+  background: #06364e;
+}
+.nav-tabs > li > a > i {
+  font-size: 20px;
+  opacity: 1;
+}
+.nav-tabs > li:first-child {
+}
+
+.nav-tabs > li > a {
+  padding: 10px 0px;
+}
+
+.nav-tabs {
+  margin-bottom: 0px;
+  border-bottom: 1px solid #333;
+}
+
+
+ .table-hover > tbody > tr:hover > td .dropdown a {
+    color: #333;
+    font-size: small;
+ }
+ .table-hover > tbody > tr > td .dropdown .dropdown-menu a {
+
+    padding:  0px 10px;
+ }
+ .table-hover > tbody > tr > td .dropdown .dropdown-menu a:hover {
+  background-color: #78909c;
+  color: #fff;
+ }
+
+  .table-hover > tbody > tr:hover > td .dropdown-menu {
+    min-width: 150px;
+ }
+
+.dropdown-menu {
+      box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.16);
+}
